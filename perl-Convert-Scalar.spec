@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Convert
-%define	pnam	Scalar
+%define		pdir	Convert
+%define		pnam	Scalar
 Summary:	Convert::Scalar - convert between different representations of perl scalars
 Summary(pl):	Convert::Scalar - konwersja miêdzy ró¿nymi reprezentacjami perlowych skalarów
 Name:		perl-Convert-Scalar
