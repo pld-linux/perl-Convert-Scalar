@@ -8,13 +8,13 @@
 Summary:	Convert::Scalar - convert between different representations of perl scalars
 Summary(pl):	Convert::Scalar - konwersja miêdzy ró¿nymi reprezentacjami perlowych skalarów
 Name:		perl-Convert-Scalar
-Version:	0.1e
+Version:	1.01
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	8fed7f80ed55e2f2593495513c3e1f8d
+# Source0-md5:	8514ae53a516667bcdb67318f513c9fe
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -30,7 +30,7 @@ wewnêtrzn± reprezentacjê lub stan perlowego skalara. Wszystko to
 dzia³a "na miejscu", czyli modyfikowany jest argument skalarny.
 
 %prep
-%setup -q -n %{pdir}-%{pnam}-0.1
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 %{__perl} Makefile.PL \
