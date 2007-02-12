@@ -6,7 +6,7 @@
 %define		pdir	Convert
 %define		pnam	Scalar
 Summary:	Convert::Scalar - convert between different representations of perl scalars
-Summary(pl):	Convert::Scalar - konwersja miêdzy ró¿nymi reprezentacjami perlowych skalarów
+Summary(pl.UTF-8):   Convert::Scalar - konwersja miÄ™dzy rÃ³Å¼nymi reprezentacjami perlowych skalarÃ³w
 Name:		perl-Convert-Scalar
 Version:	1.03
 Release:	1
@@ -25,10 +25,10 @@ This module exports various internal perl methods that change the
 internal representation or state of a perl scalar. All of these work
 in-place, that is, they modify their scalar argument.
 
-%description -l pl
-Ten modu³ eksportuje ró¿ne wewnêtrzne perlowe metody zmieniaj±ce
-wewnêtrzn± reprezentacjê lub stan perlowego skalara. Wszystko to
-dzia³a "na miejscu", czyli modyfikowany jest argument skalarny.
+%description -l pl.UTF-8
+Ten moduÅ‚ eksportuje rÃ³Å¼ne wewnÄ™trzne perlowe metody zmieniajÄ…ce
+wewnÄ™trznÄ… reprezentacjÄ™ lub stan perlowego skalara. Wszystko to
+dziaÅ‚a "na miejscu", czyli modyfikowany jest argument skalarny.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
