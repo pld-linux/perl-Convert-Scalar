@@ -57,6 +57,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes
 %{perl_vendorarch}/Convert/Scalar.pm
 %dir %{perl_vendorarch}/auto/Convert/Scalar
-%{perl_vendorarch}/auto/Convert/Scalar/Scalar.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Convert/Scalar/Scalar.so
 %{_mandir}/man3/*
