@@ -9,7 +9,7 @@ Summary:	Convert::Scalar - convert between different representations of perl sca
 Summary(pl.UTF-8):	Convert::Scalar - konwersja między różnymi reprezentacjami perlowych skalarów
 Name:		perl-Convert-Scalar
 Version:	1.04
-Release:	10
+Release:	11
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
