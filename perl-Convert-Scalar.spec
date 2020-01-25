@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Convert
 %define		pnam	Scalar
 Summary:	Convert::Scalar - convert between different representations of perl scalars
